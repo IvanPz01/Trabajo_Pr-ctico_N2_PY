@@ -22,6 +22,7 @@ def create_db(db):
     cp INT,
     id_prov_mstr INT)"""
     cursor.execute(sql_create)
+    db.commit()
 
 
 def insert_db(db, list_insert):

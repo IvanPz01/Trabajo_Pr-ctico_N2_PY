@@ -53,5 +53,5 @@ def super_funcion():
                 for pro_total, total in provincia_total.items():
                     if provincia == pro_total:
                         writer.writerow({'Total': total})
-    create_scv()
     read_csv()
+    create_scv()
